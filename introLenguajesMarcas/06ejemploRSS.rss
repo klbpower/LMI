@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>AEMET - Avisos de fenómenos metereológicos adversos</title>
+        <link>http://www.aemet.es/eltiempo/prediccion/avisos?k=ext</link>
+        <description>Avisos de fenómenos adversos</description>
+        <language>es</language>
+    </channel>
+</rss>
