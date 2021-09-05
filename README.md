@@ -125,6 +125,7 @@ https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe
 #Enlaces
 https://developer.mozilla.org/es/docs/Web/HTML/Element/a
 <a href="" target="_blank">Enlace</a>
+<a href="mailto:email@email.es">Enviar email</a>
 
 #Anclas // enlaces internos, mucho texto
 <a href="#pie_pagina">Pie de página</a>
@@ -239,5 +240,44 @@ Tablas
 </form>
 
 
+#Validaciones
+  <label for="id"> password</label>
+  <input type="password" minlenght="8" maxlength="30" name="" id="" required>
+
+//max min depende campo
+
+#Expresiones regulares
+<input type="text" required
+minlenght="8" 
+maxlength="30"
+pattern="[A-Za-z ]+"
+/>
 
 
+# Más etiquetas
+
+<pre></pre> -- mantener tal cual 
+
+<abbr> SEPE</abbr> --abreviatura
+
+<bdo dir="rtl"> Dirección escritura y Escribe al revés </bdo>
+
+<code>CÓDIGO</code> -- para código fuente
+
+<cite>Cita</cite> por Autor // <q> Parecido a una cita</q>
+
+<small>Peque</small>
+<sub>Subíndice</sub>
+<sup>Superíndice</sup>
+
+<time datetime="2022-12-25">Fiesta</time>
+<time>Hora</time>
+
+<address>
+direccion
+</address>
+
+#Favicon
+<head>
+<link rel="icon" type="image/png" href="" />
+</head>
