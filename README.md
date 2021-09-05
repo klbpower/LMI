@@ -193,6 +193,13 @@ Tablas
         <opcion name="opcion" id="opcion1" value="opcion1"> Opcion1</opcion>
         <opcion name="opcion" id="opcion2" value="opcion2"> Opcion2</opcion>
     </select>
+    
+    <input list="opciones" name="opcionElegida">
+    <datalist id="opciones" name="opciones">
+        <option value="opcion1">
+        <option value="opcion2">
+        <option value="opcion3">
+    </datalist>
 
      <label for="opcion1"> Opcion1</label>
     <input type="checkbox" name="opcion" id="opcion1" value="opcion1">
